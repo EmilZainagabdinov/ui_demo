@@ -1,0 +1,40 @@
+.CustomAlert {
+  position: fixed;
+  z-index: 500;
+  width: 50%;
+  border-radius: 5px;
+  padding: 16px;
+  left: 25%;
+  top: 3%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  text-align: left;
+}
+
+.CustomAlert p {
+  margin: 0;
+}
+
+.CustomAlert_primary {
+  background-color: lightblue;
+  border: 1px solid lightskyblue;
+  color: midnightblue;
+}
+
+.CustomAlert_success {
+  background-color: #cef0ce;
+  border: 1px solid darkseagreen;
+  color: darkolivegreen;
+}
+
+.CustomAlert_warning {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid palegoldenrod;
+  color: darkgoldenrod;
+}
+
+.CustomAlert_danger {
+  background-color: lightcoral;
+  border: 1px solid indianred;
+  color: darkred;
+}
